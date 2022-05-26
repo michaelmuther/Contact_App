@@ -1,3 +1,5 @@
+package contacts.model;
+
 public class Contact {
 
     private String name;
@@ -8,7 +10,6 @@ public class Contact {
         this.name = name;
         this.surname = surname;
         this.number = number;
-        final String RECORD_CREATED = "\nA record created!";
-        System.out.println(RECORD_CREATED);
+
     }
 }
